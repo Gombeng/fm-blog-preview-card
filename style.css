@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(47, 88%, 63%);
+}
+
+body {
+  margin: 7.5rem 1.5rem;
+  margin: 7.5rem auto;
+  color: hsl(0, 0%, 7%);
+  max-width: 295px;
+  font-family: "Figtree", sans-serif;
+}
+
+section {
+  padding: 1rem;
+  border: 1.5px solid hsl(0, 0%, 7%);
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 6px 6px hsl(0, 0%, 7%);
+  margin-bottom: 4rem;
+  transition: all 0.3s ease-in-out;
+}
+section .image {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+section .tag {
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.2rem;
+  font-weight: 900;
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section .publish {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+section h1 {
+  font-weight: 900;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+section p {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 1rem;
+}
+section .profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+section .profile img {
+  border-radius: 50%;
+  width: 1.8rem;
+}
+section .profile span {
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+section:hover {
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  cursor: pointer;
+}
+section:hover h1 {
+  color: hsl(47, 88%, 63%);
+}/*# sourceMappingURL=style.css.map */
